@@ -6,6 +6,7 @@ import { IoMdArrowDropdown } from 'react-icons/io';
 import { SiInstagram } from 'react-icons/si'; // Import Instagram icon from React Icons
 import { AiFillGoogleCircle } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+import image from '@/assets/image.png';
 
 // import { toast } from 'react-toastify';
 
@@ -33,7 +34,7 @@ const SignUp = () => {
       <section className="h-screen flex flex-col lg:flex-row justify-center space-y-10 md:space-y-0  items-center my-2  mx-0 md:mx-0 md:my-0">
         <div className="md:w-1/3 w-full max-w-screen-md relative h-full ">
           <img
-            src="./src/assets/image.png"
+            src={image}
             alt="Sample image"
             className="w-full lg:h-screen h-[600px] "
           />

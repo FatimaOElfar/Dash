@@ -1,11 +1,9 @@
-import React from 'react';
-import styles from './footer.module.css';
 import { CgMail } from 'react-icons/cg';
 import { BsTelephone } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-gray-900">
+    <footer className="bg-[#e5ebed] dark:bg-gray-900 mb-10 rounded">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -29,7 +27,8 @@ const Footer = () => {
               + 12 3456 7890
             </p>
           </div>
-          <div className="grid grid-cols-6 gap-8 sm:gap-6 sm:grid-cols-3">
+
+          <div className="grid grid-cols-4 gap-4">
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Services

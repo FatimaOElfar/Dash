@@ -8,7 +8,7 @@ const WeatherForecast = () => {
   };
 
   return (
-    <div className=" px-6 py-2 h-full shadow-md  lg:w-[50%] w-[400px] md:w-[600px] mt-6 lg:mt-0 rounded-lg bg-[#e5ebed]  border-solid border border-white border-2">
+    <div className=" px-6 py-2 h-full shadow-md  lg:w-[50%]  md:w-[700px] mx-auto mt-6 lg:mt-0 rounded-lg bg-[#e5ebed]   border-solid border border-white border-2 w-[140%]">
       <div className="flex ml-2  space-x-4 bg-[#e5ebed] px-2 py-2">
         <button
           onClick={() => handleCountryChange('New York')}

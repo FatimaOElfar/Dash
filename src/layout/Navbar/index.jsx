@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="relative flex w-full flex-wrap items-center justify-between bg-zinc-50 border-white border-2 border-solid py-2 shadow-dark-mild dark:bg-neutral-700 lg:py-4 rounded-xl  ">
+    <nav className="relative flex w-full flex-wrap mt-8 items-center justify-between bg-zinc-50 border-white border-2 border-solid py-2 shadow-dark-mild dark:bg-neutral-700 lg:py-4 rounded-xl  ">
       <div className="flex w-full flex-wrap items-center justify-between px-3">
         <span className="ms-2 text-xl text-black dark:text-white flex flex-row justify-center items-center">
           <GiHamburgerMenu /> <h3 className="text-[#0FB3BB] mx-4">Sky Cast</h3>

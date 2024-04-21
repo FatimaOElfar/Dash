@@ -45,7 +45,7 @@ const Calendar = () => {
   };
 
   return (
-    <div className="flex flex-col   mb-6 rounded-lg shadow-lg px-4 bg-[#e5ebed]  border-solid border border-white border-2   ">
+    <div className="flex flex-col  mb-6 rounded-lg shadow-lg px-4 bg-[#e5ebed]  border-solid border border-white border-2   ">
       <div className="flex  mt-4">
         <button
           className="mr-6 font-bold text-lg text-black"

@@ -2,7 +2,7 @@ import React from 'react';
 
 const CurrentWeather = () => {
   return (
-    <div className=" rounded-lg shadow-lg py-2 bg-[#e5ebed] px-8 border-solid border border-white border-2 lg:h-[200px] md:w-[600px] h-[300px] lg:w-[60%] w-[340px] ">
+    <div className=" rounded-lg shadow-lg py-2 bg-[#e5ebed] px-8 border-solid border mx-auto border-white border-2 lg:h-[200px] md:w-[700px] h-[300px] lg:w-[60%]  w-[140%] ">
       <h2 className="text-lg  text-black font-semibold mb-2">
         Current Weather
       </h2>
