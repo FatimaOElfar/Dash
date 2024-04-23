@@ -104,10 +104,10 @@ const SignUp = () => {
                 {showPassword ? <AiOutlineEyeInvisible /> : <AiOutlineEye />}
               </div>
             </div>
-            <div className="mx-auto  items-center  mt-4">
+            <div className="  w-[80%] mx-auto  mt-4">
               {' '}
               <Link to="/">
-                <button className="lg:px-24 px-8 font-normal lg:w-full lg:ml-0 ml-[10%]    w-[500px]  mx-auto text-xl py-3 text-center items-center border-0 outline-none border-2 rounded-full bg-[#0FB3BB] text-white ">
+                <button className="lg:px-24 px-8 font-normal lg:w-full lg:ml-0 md:ml-[15%]     lg:w-[500px] w-[300px]  mx-auto text-xl py-3 text-center items-center border-0 outline-none border-2 rounded-full bg-[#0FB3BB] text-white ">
                   Sign Up
                 </button>
               </Link>
